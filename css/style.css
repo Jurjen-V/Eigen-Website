@@ -1,0 +1,166 @@
+/*own css*/
+
+body { font-family: sans-serif; }
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul{
+  line-height: 55px;
+}
+.hover:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.hover a{
+  text-decoration: none;
+  color: black;
+}
+.link a{
+  text-decoration: underline;
+  text-decoration-color:  #4db6ac;
+}
+#no-link{
+  text-decoration: none;
+}
+.section{
+  padding-top: 0;
+   padding-bottom:  0;
+}
+.active{
+  color:#4db6ac !important;
+}
+
+.carousell-cell{
+  height: auto; 
+  width: 20%;
+  margin: 0px 10px 0 10px;
+}
+.project-slider{
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+/*Hide arrows*/
+.flickity-prev-next-button {
+  display: none;
+}
+/* position dots in gallery */
+.flickity-page-dots {
+  bottom: 0px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  bottom: 0px;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid #009688;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: #009688;
+  border: 2px solid #015e56;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carousell-cell {
+    /*min-height:none;*/
+    width: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .carousell-cell {
+    /*height: 400px;*/
+    /*min-height:950px;*/
+    width: 100%;
+  }
+  .flickity-viewport{
+    /*height: 950px !important;*/
+  }
+}
+
+.fas, .fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: #015e56;
+  color: white;
+}
+
+.fas:hover, .fab:hover {
+    opacity: 0.7;
+}
+#contact-icon{
+  padding: 0px;
+  font-size: 15px;
+  width:auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: transparent;
+  color: black;
+}
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

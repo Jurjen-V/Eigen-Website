@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Jurjen Veenstra</title>
+  <!-- carousell cdn -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+<div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container header">
+      <ul class="right hide-on-med-and-down section">
+      	<li><a href="#Home" id="Home">Home</a></li>
+        <li><a href="#About" id="About">Over mij</a></li>
+        <li><a href="#Portfolio" id="Portfolio">Portfolio</a></li>
+      </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
+  	  <ul id="nav-mobile" class="sidenav section header">
+      	<li><a href="#Home" id="Home">Home</a></li>
+        <li><a href="#About" id="About">Over mij</a></li>
+        <li><a href="#Portfolio" id="Portfolio">Portfolio</a></li>
+      </ul>
+
+<div class="row ">
+  <div id="index-banner" class="parallax-container ">
+    <div id="Home" class="no-pad-bot scrollspy section">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Jurjen Veenstra</h1>
+        <div class="row center">
+          <h5 class="header col s12 black-text">Applicatie- en mediaontwikkelaar in opleiding</h5>
+          <h6 class="header col s12 black-text">Bij ROC Friese Poort Sneek</h6>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="About" class="valign-wrapper scrollspy">
+      <div class="container">
+      	<div class="row">
+        <div class="col l6 s12 m6 link">
+          <h5 class="teal-text">Contact</h5>
+          <ul>
+			<li><i id="contact-icon" class='fas fa-at'></i><a class="black-text" href="mailto:jurjen.veenstra@hotmail.nl"> jurjen.veenstra@hotmail.nl</a></li>
+            <li><i id="contact-icon" class='fas fa-phone-alt'></i><a class="black-text" href="tel:+31 06 21 855 606"> +31 06 21 855 606</a></li>
+          </ul>
+          <h5 class="teal-text">Links</h5>
+			<a id="no-link" class="white-text fab fa-github" href="https://github.com/Jurjen-V" target="_blank"></a>
+			<a id="no-link" class="white-text fab fa-linkedin" href="https://www.linkedin.com/in/jurjen-veenstra-985b01180/" target="_blank"></a>
+          	<a id="no-link" class="white-text fab fa-stack-overflow" href="https://stackoverflow.com/users/10424373/j-vee" target="_blank"></a>
+          	<a id="no-link" class="white-text fab fa-instagram" href="https://www.instagram.com/jurjen_veenstra/?hl=nl" target="_blank"></a>
+        </div>
+			<div class="col s12 m6">
+	          <h5 class="teal-text">Over mij</h5>
+	          <p class="black-text">Mijn naam is Jurjen Veenstra. Ik ben 18 jaar oud en een enthousiaste leerling aan de opleiding Applicatieontwikkeling op het ROC Friese Poort. In mijn vrije tijd ben ik graag aan het werk bij het bedrijf Miedema Sails waar ik inmiddels al vier jaar met alle plezier werk.</p>
+	          <p class="black-text">Tijdens mijn jaren op school heb ik gemerkt dat de talen PHP, HTML en CSS mij goed liggen en erg interesseren. Er valt nog veel te leren in al die talen. Graag zou ik nieuwe talen willen leren en beter willen worden in OOP.</p>       		
+	        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4 class="teal-text">Portfolio</h4>
+          <p class="left-align light"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<div id="Portfolio" class="container scrollspy project-slider">
+
+    <div class="carousell js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true}'>
+
+	  <div class="carousell-cell hover">
+	  	<div class="icon-block " style="overflow: hidden;"><a href="http://updatetracker.itmediasneek.nl/" target="_blank">
+	        <img src="img/updattracker.jpg" alt="Unsplashed background img 1" style="height: auto; width: 100%;">
+	        <h4 class="center teal-text">Update-Tracker</h4>            
+	        <h5 class="center">PHP</h5>
+	        <p class="light">Back-end applicatie gemaakt voor het vak project y/x op school. Het idee van de applicatie is dat een gebruiker zijn software kan opgeven. Vervolgens krijgt de gebruiker een mailtje als zijn/haar software een update nodig heeft.</p>
+	    </a></div>
+	  </div>
+	  <div class="carousell-cell  hover">
+	  	<div class="icon-block"><a href="https://lesonline.nu/frontend/jurjen/leafset/mapsroute.php" target="_blank">
+			<img src="img/leaflet.jpg" alt="Unsplashed background img 5" style="height: auto; width: 100%;">
+	        <h4 class="center teal-text">Leaflet</h4>            
+	        <h5 class="center">JavaScript</h5>
+	        <p class="light">Javascript applicatie gemaakt op stage. Het idee van de applicatie is je kunt navigeren naar een bepaalde bestemming met behulp van de ingebouwde routeplanner.</p>
+	    </a></div>
+	  </div>
+	   <div class="carousell-cell  hover">
+	  	<div class="icon-block"><a href="http://projectstatusscherm.itmediasneek.nl/admin.php" target="_blank">
+			<img src="img/projectstatusschem.jpg" alt="Unsplashed background img 6" style="height: auto; width: 100%;">
+	        <h4 class="center teal-text">Project statusscherm</h4>            
+	        <h5 class="center">PHP</h5>
+	        <p class="light">Back-end applicatie gemaakt voor het vak project y/x op school. Het idee van de applicatie is dat de school studenten hun project voorgang kunnen bijhouden via deze website. Op die manier is het duidelijk voor de leraren of leerlingen op schema lopen ja of nee</p>
+	    </a></div>
+	  </div>
+	  <div class="carousell-cell  hover">
+	  	 <div class="icon-block"><a>
+			<img src="img/mirroroffame.jpg" alt="Unsplashed background img 6" style="height: auto; width: 100%;">
+	        <h4 class="center teal-text">Mirror of fame</h4>            
+	        <h5 class="center">PHP</h5>
+	        <p class="light">Back-end applicatie gemaakt voor het vak project y/x op school. Het idee van de applicatie is dat de school studenten in het zonnetje kan zetten via deze website. Als een leerling iets goeds heeft gedaan kan dat op deze manier gedeeld wroden met de medestudenten.</p>
+	    </a></div>
+	   	</div>
+	    <div class="carousell-cell  hover">
+		  	<div class="icon-block"><a>
+				<img src="img/UEFAAPI.png" alt="Unsplashed background img 4" style="height: auto; width: 100%;">
+		        <h4 class="center teal-text">UEFA API</h4>
+		        <h5 class="center">C# & .net</h5>
+		        <p class="light">.net applicatie gemaakt voor het vak programmeren-apps op school. Het idee van de applicatie is om data te leveren over het EK 2020 in de vorm van een API</p>
+		    </a></div>
+	    </div>
+	    <div class="carousell-cell  hover">
+		  	<div class="icon-block"><a>
+				<img src="img/UEFA.png" alt="Unsplashed background img 4" style="height: auto; width: 100%;">
+			    <h4 class="center teal-text">UEFA website</h4>
+			    <h5 class="center">C# & .net</h5>
+			    <p class="light">.net applicatie gemaakt voor het vak programmeren-apps op school. Het idee van de applicatie is om de EK 2020 website te zijn</p>
+		    </a></div>
+	    </div>
+	    <div class="carousell-cell  hover">
+		  	<div class="icon-block"><a href="https://lesonline.nu/frontend/jurjen/" target="_blank">
+				<img src="img/klusplus.jpg" alt="Unsplashed background img 4" style="height: auto; width: 100%;">
+		        <h4 class="center teal-text">Klusplus</h4>
+		        <h5 class="center">TypeScript & Angular</h5>
+		        <p class="light">Front-end applicatie gemaakt voor het vak Front-end op school. Het idee van de applicatie is dat een gebruiker kan aangeven als iets kapot is gegaan bij hem/ haar thuis</p>
+		    </a></div>
+	  </div>
+	</div>
+</div>
+<br><br>
+ 
+  <footer class="page-footer teal section scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 m6 link">
+          <h5 class="white-text">Contact</h5>
+		  <ul>
+			<li><i id="contact-icon" class='fas fa-at white-text'></i><a class="white-text" href="mailto:jurjen.veenstra@hotmail.nl"> jurjen.veenstra@hotmail.nl</a></li>
+            <li><i id="contact-icon" class='fas fa-phone-alt white-text	'></i><a class="white-text" href="tel:+31 06 21 855 606"> +31 06 21 855 606</a></li>
+          </ul>
+        </div>
+        <div class="col l6 s12 m6">
+          <h5 class="white-text">Links</h5>
+			<a class="white-text fab fa-github" href="https://github.com/Jurjen-V" target="_blank"></a>
+			<a class="white-text fab fa-linkedin" href="https://www.linkedin.com/in/jurjen-veenstra-985b01180/" target="_blank"></a>
+          	<a class="white-text fab fa-stack-overflow" href="https://stackoverflow.com/users/10424373/j-vee" target="_blank"></a>
+          	<a class="white-text fab fa-instagram" href="https://www.instagram.com/jurjen_veenstra/?hl=nl" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    </div>	
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/script.js"></script>
+
+  </body>
+</html>
